@@ -1,0 +1,17 @@
+[project]
+name = "svlist"
+version = "1.0.0"
+description = "Generate SystemVerilog filelist from directories"
+authors = [
+    { name = "Keyi Zhang", email = "keyi@cs.stanford.edu" }
+]
+license = { file = "LICENSE.txt" }
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "pyslang"
+]
+license = "MIT"
+
+[project.scripts]
+svlist = "svlist:main"
